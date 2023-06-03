@@ -11,6 +11,8 @@
 
     <groupId>br.github.gmess.domain</groupId>
     <artifactId>domain</artifactId>
+    <version>1</version>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

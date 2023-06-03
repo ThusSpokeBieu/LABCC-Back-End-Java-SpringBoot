@@ -11,11 +11,26 @@
 
     <groupId>br.github.gmess.infrastructure</groupId>
     <artifactId>infrastructure</artifactId>
+    <version>1</version>
+    <packaging>war</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>br.github.gmess.domain</groupId>
+            <artifactId>domain</artifactId>
+            <version>1</version>
+        </dependency>
+        <dependency>
+            <groupId>br.github.gmess.application</groupId>
+            <artifactId>application</artifactId>
+            <version>1</version>
+        </dependency>
+    </dependencies>
 
 </project>
